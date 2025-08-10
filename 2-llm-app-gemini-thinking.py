@@ -20,4 +20,5 @@ response = client.models.generate_content(
         thinking_config=types.ThinkingConfig(thinking_budget=0) # Disables thinking
     ),
 )
+
 print(response.text)
