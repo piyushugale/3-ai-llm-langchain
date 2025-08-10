@@ -13,4 +13,5 @@ response = client.models.generate_content(
     model="gemini-2.5-flash",
     contents="add 20 dashes. Explain how AI works in a one liner. add 20 dashes"
 )
+
 print(response.text)
