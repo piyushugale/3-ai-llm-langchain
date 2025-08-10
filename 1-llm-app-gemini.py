@@ -1,3 +1,5 @@
+# LangChain: https://python.langchain.com/docs/introduction/
+
 import os
 from dotenv import load_dotenv
 from google import genai
